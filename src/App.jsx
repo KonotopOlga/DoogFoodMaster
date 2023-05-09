@@ -76,9 +76,9 @@ const App = () => {
         setGoods(serverGoods);
     }, [serverGoods]);
 
-    // useEffect(() => {
-    //     console.log("Модалка изменилась")
-    // }, [modalActive])
+     useEffect(() => {
+        console.log("Модалка изменилась")
+     }, [modalActive])
 
     useEffect(() => {
         console.log("Change User")
